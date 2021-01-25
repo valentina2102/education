@@ -1,0 +1,49 @@
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: blue;
+}
+p {
+    color: red;
+}
+
+p:nth-of-type(odd) {
+    color: blueviolet;
+}
+
+.lol {
+    font-size: 300px;
+    color: crimson;
+    border: 20px solid yellow;
+}
+
+.lolol {
+    border: 2px solid blueviolet;
+    border-radius: 25%;
+    width: 15%;
+}
+
+#oll {
+    border: 5px solid black;
+    width: 40%;
+    height: 40%;
+    border-radius: 15px;
+}
+
+@media print {
+    h1 {
+        font-size: 250px;
+        color: chartreuse;
+    }
+    p:nth-of-type(even){
+        display: none;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
